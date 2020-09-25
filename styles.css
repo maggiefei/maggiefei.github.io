@@ -442,3 +442,33 @@ body {
   font-size: 15px;
   font-weight: 400;
 }
+
+.project {
+  width: 70%;
+  height: 70%;
+  overflow: hidden;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 15%;
+  left: 15%;
+  /* display: flex;
+  justify-content: center;
+  text-align: center; */
+  /* display: inline-block; */
+  /* border: 6px solid #ffffff; */
+}
+
+.project-img {
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+}
+
+/* .portfolio-pic-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: left;
+} */
