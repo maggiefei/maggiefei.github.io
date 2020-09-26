@@ -151,6 +151,17 @@ body {
     -webkit-transition: linear all .3s!important;
 }
 
+.links {
+  color: #a6e35f;
+  font-weight: 900;
+}
+
+.links:hover {
+  color: #5ff6f3;
+  font-weight: 900;
+  text-decoration: none;
+}
+
 .sidebar-title {
   font-family: 'Lato';
   font-size: 18px;
@@ -255,7 +266,7 @@ body {
   background: #FFF;
   border: 1px solid #f1f1f1;
   border-radius: 50px;
-  bottom: -55px;
+  bottom: -52px;
   color: #a6e35f;
   /* left: 55px; */
   font-family: 'Lato';
@@ -472,3 +483,49 @@ body {
   position: relative;
   text-align: left;
 } */
+
+.ios-left-1 {
+  width: 20%;
+  height: 80%;
+  overflow: hidden;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 13%;
+  left: 25%;
+  /* -webkit-box-shadow: 2px 7px 16px 0px rgba(43,43,43,1);
+  -moz-box-shadow: 2px 7px 16px 0px rgba(43,43,43,1);
+  box-shadow: 2px 7px 16px 0px rgba(43,43,43,1); */
+}
+
+.ios-right-1 {
+  width: 20%;
+  height: 80%;
+  overflow: hidden;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 8%;
+  right: 25%;
+}
+
+.ios-left-2 {
+  width: 20%;
+  height: 80%;
+  overflow: hidden;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 8%;
+  left: 25%;
+  /* -webkit-box-shadow: 2px 7px 16px 0px rgba(43,43,43,1);
+  -moz-box-shadow: 2px 7px 16px 0px rgba(43,43,43,1);
+  box-shadow: 2px 7px 16px 0px rgba(43,43,43,1); */
+}
+
+.ios-right-2 {
+  width: 20%;
+  height: 80%;
+  overflow: hidden;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 13%;
+  right: 25%;
+}
